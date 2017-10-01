@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+		<title>Your Online Voting</title>
+		<link rel="stylesheet" href="http://aaearhart.com/css/projects/votem/core.css" type="text/css">
+		
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<script src="http://aaearhart.com/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		<script src="http://aaearhart.com/js/projects/votem/core.js" type="text/javascript"></script>
+
+	</head>
+	<body class="registration">
+    	<h1>Step 2: Register for Online Voting</h1>
+    	<p>Complete the Registration form by using your legal first and last name, date of birth, social security number, as well as your residential and mailing addresses. All fields are required.</p>
+    	<form class="form-inline">
+    		<fieldset>
+    			<legend>
+    				Your Information
+    			</legend>
+    			<div class="form-group">
+					<label for="fname" class="col-sm-3 control-label">First Name</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="fname" required aria-required="true">
+					</div>
+				</div>
+    			<div class="form-group">
+					<label for="lname" class="col-sm-3 control-label">Last Name</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="lname" required aria-required="true">
+					</div>
+				</div>
+    			<div class="form-group">
+					<label for="dob" class="col-sm-3 control-label">Date of Birth</label>
+					<div class="col-sm-2">
+						<select class="form-control" id="dob-year" required aria-required="true">
+							<option>2017</option>
+							<option>2017</option>
+							<option>2015</option>
+							<option>2014</option>
+							<option>2013</option>
+						</select>
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control" id="dob-month" required aria-required="true">
+							<option>JAN</option>
+							<option>FEB</option>
+							<option>MAR</option>
+							<option>APR</option>
+							<option>MAY</option>
+						</select>
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control" id="dob-day" required aria-required="true">
+							<option>01</option>
+							<option>02</option>
+							<option>03</option>
+							<option>04</option>
+							<option>05</option>
+						</select>
+					</div>
+				</div>
+    			<div class="form-group">
+					<label for="ssn" class="col-sm-3 control-label">Social Security Number</label>
+					<div class="col-sm-3">
+						<input type="text" class="form-control" id="ssn" required aria-required="true" placeholder="xxx-xx-xxxx">
+					</div>
+				</div>
+    		</fieldset>
+    		<fieldset>
+    			<legend>Residential Address</legend>
+    			<div class="form-group">
+					<label for="address1" class="col-sm-3 control-label">Street Address</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="address1" required aria-required="true">
+					</div>
+				</div>
+    			<div class="form-group">
+					<label for="address2" class="col-sm-3 control-label">Street Address 2</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="address2" required aria-required="true">
+					</div>
+				</div>
+    			<div class="form-group">
+					<label for="city" class="col-sm-3 control-label">City</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="city" required aria-required="true">
+					</div>
+				</div>
+    			<div class="form-group">
+					<label for="state" class="col-sm-3 control-label">State</label>
+					<div class="col-sm-5">
+						<select class="form-control" id="state" required aria-required="true">
+							<option>Alabama</option>
+							<option>2017</option>
+							<option>2015</option>
+							<option>2014</option>
+							<option>Mississippi</option>
+						</select>
+					</div>
+				</div>
+    			<div class="form-group">
+					<label for="zip" class="col-sm-3 control-label">Zip Code</label>
+					<div class="col-sm-3">
+						<input type="text" class="form-control" id="zip" required aria-required="true" placeholder="xxxxx">
+					</div>
+				</div>
+    		</fieldset>
+    		<fieldset>
+    			<span class="mailing-check float-right" id="mailing_check">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="1" checked>
+							Same as Residential Address
+						</label>
+					</div>
+				</span>
+    			<legend>Mailing Address</legend>
+    			<div class="collapse" id="mailing_inputs">
+    				<div class="form-group">
+					<label for="address1" class="col-sm-3 control-label">Street Address</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="address1" required aria-required="true">
+					</div>
+				</div>
+    				<div class="form-group">
+					<label for="address2" class="col-sm-3 control-label">Street Address 2</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="address2" required aria-required="true">
+					</div>
+				</div>
+    				<div class="form-group">
+					<label for="city" class="col-sm-3 control-label">City</label>
+					<div class="col-sm-5">
+						<input type="text" class="form-control" id="city" required aria-required="true">
+					</div>
+				</div>
+    				<div class="form-group">
+					<label for="state" class="col-sm-3 control-label">State</label>
+					<div class="col-sm-5">
+						<select class="form-control" id="state" required aria-required="true">
+							<option>Alabama</option>
+							<option>2017</option>
+							<option>2015</option>
+							<option>2014</option>
+							<option>Mississippi</option>
+						</select>
+					</div>
+				</div>
+    				<div class="form-group">
+					<label for="zip" class="col-sm-3 control-label">Zip Code</label>
+					<div class="col-sm-3">
+						<input type="text" class="form-control" id="zip" required aria-required="true" placeholder="xxxxx">
+					</div>
+				</div>
+				</div>
+    		</fieldset>
+    		<a class="btn btn-success btn-submit" href="http://aaearhart.com/projects/votem/registration_confirm.html">Continue</a>
+  		</form>
+  		
+    	<script src="http://aaearhart.com/js/projects/votem/scripts.js" type="text/javascript"></script>
+    </body>
+</html>
