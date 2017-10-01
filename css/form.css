@@ -1,0 +1,26 @@
+fieldset {width: 100%;}
+fieldset + fieldset {margin-top: var(--px-lg);}
+legend {
+	font-family: 'Andada', serif;
+	border-bottom: var(--border-width-thin) solid var(--border-color);
+}
+.form-inline label {
+		align-items: left;
+		justify-content: left;
+}
+.form-inline .form-control {width: 100%;}
+.form-group + .form-group {margin-top: var(--px-sm);}
+input[type="checkbox"] {margin-top: 6px;margin-right: 6px;}
+input[type="submit"] {
+	margin-top: var(--px-lg);
+	align-items: right;
+	justify-content: right;
+	background-color: white;
+	border: var(--border-width-regular) solid var(--primary-color);
+	color: var(--primary-color);
+}
+form.has-data .form-group + .form-group {margin-top: var(--px-mu);}
+.form-control.has-data {
+	border: 0;
+	background-color: var(grey-color);
+}
