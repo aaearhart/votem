@@ -22,21 +22,17 @@ body.registration .btn-submit {
 }
 
 .column {
-  width: 162px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  text-align: center;
+  border: 1px solid silver;
   cursor: move;
+  -webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 16px;
+	padding: 8px 12px;
 }
+.column:last-child {margin-bottom: 0;}
 .column header {
-  height: 20px;
-  width: 150px;
-  color: black;
-  background-color: #ccc;
-  padding: 5px;
-  border-bottom: 1px solid #ddd;
-  border-radius: 10px;
-  border: 2px solid #666666;
+  
 }
 
 .column.dragElem {

@@ -18,18 +18,43 @@
     <p>Rank candidates in order of choice. Mark your favorite candidate as first choice and then indicate your second and additional back-up choices in order of preference. You may rank as many candidates as you want.</p>
     
     <button type="button" class="btn btn-link inline-link" data-toggle="modal" data-target="#instructions" id="instructions_trigger">How do I do this?</button>
+    <form class="form-horizontal">
+    <!-- Source: https://codepen.io/retrofuturistic/pen/tlbHE -->
     <ul id="columns">
-  <li class="column" draggable="true"><header>A</header></li>
-  <li class="column" draggable="true"><header>B</header></li>
-  <li class="column" draggable="true"><header>C</header></li>
-  <li class="column" draggable="true"><header>D</header></li>
-  <li class="column" draggable="true"><header>E</header></li>
-</ul>
+		<li class="column" draggable="true">
+		<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		<header>
+			Reese WithoutHerSpoon - Democrat for C.I.C.
+			<br>Cherry Garcia - Democrat for Vice Ice
+		</header>
+		</li>
+		<li class="column" draggable="true">
+		<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		<header>
+		Choco 'Chip' Dough - Republican for C.I.C.
+		<br>Carmela Coney - Republican for Vice Ice
+		</header>
+		</li>
+		<li class="column" draggable="true">
+		<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		<header>
+			Magic Browny - Independent for C.I.C.
+			<br>Phish Food - Independent for Vice Ice
+		</header>
+		</li>
+		<li class="column" draggable="true">
+		<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		<header>
+			<input class="form-control" type="text" placeholder="Write in candidates' names">
+		</header>
+		</li>
+	</ul>
+	</form>
     
     <script src="http://aaearhart.com/js/projects/votem/scripts.js" type="text/javascript"></script>
 
 	<div class="modal fade" id="instructions" tabindex="-1" role="dialog" aria-labelledby="instructions_trigger">
-  <div class="modal-dialog" role="document">
+  		<div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
