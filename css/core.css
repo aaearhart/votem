@@ -6,5 +6,9 @@
 @import url("http://aaearhart.com/css/projects/votem/font.css");
 @import url("http://aaearhart.com/css/projects/votem/form.css");
 @import url("http://aaearhart.com/css/projects/votem/style.css");
+@import url("http://aaearhart.com/css/projects/votem/page_styles.css");
+@import url("http://aaearhart.com/css/projects/votem/responsive.css");
+
+/* load fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Andada|Open+Sans:400,700,800');

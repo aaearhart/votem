@@ -1,0 +1,6 @@
+.[class^="registration"] .mailing-check {
+	float: right;
+	margin-top: -36px;
+	position: relative;
+}
+.[class^="registration"] .btn-submit {float: right;}

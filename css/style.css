@@ -1,12 +1,12 @@
-.top-margin-btn {margin-top: 16px;}
-body.[class^="registration"].mailing-check {
-	margin-top: -36px;
-}
-body.registration .btn-submit {
-	float: right;
-	margin-top: 36px;
-}
+.btn-submit {margin-top: 36px;}
 
+.top-margin-btn {margin-top: 16px;}
+
+ul.rank-list {padding-left: 0;}
+ul.rank-list .column .glyphicon {font-size: 4em;}
+ul.rank-list .column .header {display: inline;}
+
+/* Drag and drop ranking */
 [draggable] {
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -20,7 +20,6 @@ body.registration .btn-submit {
 #columns {
   list-style-type: none;
 }
-
 .column {
   border: 1px solid silver;
   cursor: move;
@@ -31,10 +30,6 @@ body.registration .btn-submit {
 	padding: 8px 12px;
 }
 .column:last-child {margin-bottom: 0;}
-.column header {
-  
-}
-
 .column.dragElem {
   opacity: 0.4;
 }
